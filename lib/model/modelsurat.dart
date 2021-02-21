@@ -34,9 +34,7 @@ class Modelsurat {
   };
 }
 
-List<Datum> modelSuratGabunganFromJson(String str) => List<Datum>.from(json.decode(str).map((x) => Datum.fromJson(x)));
 
-String modelSuratGabunganToJson(List<Datum> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 class Datum {
   Datum({
     this.number,

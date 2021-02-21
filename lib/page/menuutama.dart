@@ -282,9 +282,9 @@ class _MenuUtamaState extends State<MenuUtama> {
                                     end: Alignment.centerRight,
                                     colors: [
                                       //Color(0xFF2193B0),
-                                      Color(0xFFA3CFCD),
+                                      Color(0xFF5EC192),
                                       ///Color(0xFF6DD5ED)
-                                      Color(0xFF98DDCB)
+                                      Color(0xFF218B5F)
                                     ]
                                 ),
                                 boxShadow: [
